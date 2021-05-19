@@ -1,0 +1,76 @@
+/*Estilo da página index.html*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(142, 148, 148);
+}
+
+p{
+    margin: 15px;
+}
+
+.container{
+    display: flex; /*Indica que vai ser um flex box*/
+    flex-flow: row; /**/
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a{
+    text-decoration: none; 
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#menu li a:hover{
+    color: gray;
+}
+
+.center{
+    text-align: center;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-200{
+    height: 200px;
+    width: 200px;
+}
+
+.tm-social{
+    height: 40px;
+    width: 40px;  
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+#foto_perfil{
+    padding: 0;
+    margin: 15px;
+    border: 5px solid rgb(21, 115, 192);
+}
+/*Estilo da página contato.html*/

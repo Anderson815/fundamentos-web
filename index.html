@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -15,28 +16,55 @@
         </li>
     </ul>
 
-    <h1>Sobre o Anderson</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eius. Sed reprehenderit consectetur hic animi adipisci, magnam corrupti quas eius amet deleniti dolor aperiam obcaecati dignissimos sunt quaerat quibusdam ducimus?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam adipisci aperiam necessitatibus, rem sapiente minus quis nisi illum dignissimos error quam cum maxime, amet at reprehenderit saepe ab cupiditate temporibus.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis blanditiis sequi esse ipsa, placeat iste dignissimos praesentium voluptas nihil laudantium debitis? Vero molestias aliquid ut enim repellat excepturi delectus?
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate voluptatum aliquam ea sed, ipsa praesentium illum, odit tempore minima quam aperiam nesciunt molestiae neque ratione cum eius sequi nobis inventore!
-    </p>
+    <h1 class="center">Sobre o Anderson</h1>
 
-    <img src="assets/img/Perfil.jpg" alt="Foto do criador do conteudo">
+    <div class="container">
+        <div>
+            <img id="foto_perfil" class="br-50 wh-200 p-30" src="assets/img/Perfil.jpg" alt="Foto do criador do conteudo">  
+        </div>
+    
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eius. Sed reprehenderit consectetur hic animi adipisci, magnam corrupti quas eius amet deleniti dolor aperiam obcaecati dignissimos sunt quaerat quibusdam ducimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam adipisci aperiam necessitatibus, rem sapiente minus quis nisi illum dignissimos error quam cum maxime, amet at reprehenderit saepe ab cupiditate temporibus.
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis blanditiis sequi esse ipsa, placeat iste dignissimos praesentium voluptas nihil laudantium debitis? Vero molestias aliquid ut enim repellat excepturi delectus?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate voluptatum aliquam ea sed, ipsa praesentium illum, odit tempore minima quam aperiam nesciunt molestiae neque ratione cum eius sequi nobis inventore!
+            </p>
+        </div> 
+        
+    </div>
+    
+    <h2 class="center">Meu vídeo predileto</h2>
 
-    <h2>Meu vídeo predileto</h2>
+    <div class="container mb-50">
+        <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/nNnRAiirhj8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+       </iframe>
+    </div>
 
-    <iframe
-     width="560"
-     height="315"
-     src="https://www.youtube.com/embed/nNnRAiirhj8"
-     title="YouTube video player"
-     frameborder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-     allowfullscreen>
-    </iframe>
+    <hr>
+    <footer>
+        <div class="container">
+
+            <a href="https://www.linkedin.com/in/anderson-correia/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin" title="Linkedin">
+            </a>
+
+            <a href="https://github.com/Anderson815" target="_blank">
+                <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do GitHub" title="GitHub">
+            </a>
+        </div>
+
+        <p class="center">Todos os direitos reservados: Anderson Correia de Souza &copy;</p>     
+    </footer>
+
 </body>
 </html>
